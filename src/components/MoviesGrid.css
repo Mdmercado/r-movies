@@ -1,0 +1,20 @@
+ul{
+  margin: 10px;
+  padding: 0;
+}
+.moviesgrid {
+	display: grid;
+  grid-template-columns: repeat(auto-fill,500px);
+  column-gap: 40px;
+  row-gap: 35px;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+@media(max-width:560px){
+  .moviesgrid{
+  grid-template-columns: 100%;
+
+  }
+}
